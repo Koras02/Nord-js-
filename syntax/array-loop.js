@@ -2,7 +2,7 @@ var number = [1,400,12,34,];
 var i = 0;
 var total= 0;
 while(i < number.length){
-  total = total + number[i];
+  total = total + number[i]; 
   i = i + 1;
 }
-console.log(`total : ${total}`);
+console.log(`total : ${total}`); //total 문자전체의 값을 계산해주
